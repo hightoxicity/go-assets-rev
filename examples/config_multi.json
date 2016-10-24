@@ -1,0 +1,16 @@
+[
+  {
+    "root_dir": "/home/user/myimages",
+    "output_filepath": "/tmp/ouput1.json",
+    "file_filter": ".*",
+    "dest_format": "%srcdir%%srcfilename%.%crc32%%srcext%",
+    "output_mode": "create"
+  },
+  {
+    "root_dir": "/home/user/mybuiltjs",
+    "output_filepath": "/tmp/ouput2.json",
+    "file_filter": ".*",
+    "dest_format": "%srcdir%%srcfilename%.%crc32%%srcext%",
+    "output_mode": "create"
+  }
+]
